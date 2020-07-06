@@ -15,4 +15,6 @@ def fizzbuzz(num)
 	end
 
 end
+numRange = Array(1..100)
 
+numRange.each do |i| puts fizzbuzz(i) end
